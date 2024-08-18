@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fafff4;
+  min-height: 100vh; /* Ensures the app takes at least the full height of the viewport */
+
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px; /* Adjust as needed */
+}
+
+.title {
+  font-size: 24px; 
+  margin-right: 1100px; 
+}
+
+main {
+  flex: 1;
+}
+
+.city-photos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.city-photo {
+  width: 30%;
+}
+
+.city-photo img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.city-photo p {
+  text-align: center;
+  margin-top: 10px;
+}
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fafff4;
+  border-bottom: 1px solid #004500;
+}
+
+.logo {
+  height: 50px; 
+}
+.footer {
+  margin-top: auto; 
+}

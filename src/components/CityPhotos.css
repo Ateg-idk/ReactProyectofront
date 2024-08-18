@@ -1,0 +1,21 @@
+.city-photos {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .city-photo img {
+    width: 200px;
+    height: 150px;
+    transition: transform 0.3s ease;
+  }
+  
+  .city-photo img:hover {
+    transform: scale(1.1);
+  }
+  .city-photo p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333; 
+  }
